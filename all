@@ -1,0 +1,62 @@
+alias pgdump="pg_dumpall >"
+pgload() { psql -f $* postgres }
+
+# ohmyzsh aliases
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+
+# bundler
+alias be="bundle exec"
+alias bi="bundle install"
+
+# Ruby
+alias ber='RAILS_ENV=test bundle exec rspec'
+alias bep='bundle exec pry'
+alias rb='ruby'
+
+# Rails
+alias rdm='rake db:migrate'
+alias rdr='rake db:rollback'
+alias rs='bundle exec rails server'
+alias rc='bundle exec rails console'
+alias rdf='rake db:drop db:create db:migrate'
+alias rdfd='rake db:drop db:create db:migrate:with_data'
+alias ra="bin/rake"
+alias rat="ra -T"
+
+# ripgrep, heh
+alias ag='/usr/local/bin/rg'
+
+# Docker compose
+alias dc='docker-compose'
+alias dup='dc up'
+# I mess this up way too much
+alias dcup='dup'
+alias dcd='dc down'
+
+# Git aliases
+alias gcmp='git diff --stat --color --graph'
+alias gdrop='git reset --hard'
+
+# Miscellanea
+alias tf='tail -f'
+alias tmux="TERM=screen-256color-bce tmux"
+alias tx="tmux"
+alias ups='ps aux | grep'
+łups() { ps aux | grep $1 | grep -v grep | awk '{print $2}' | xargs kill }
+łups!() { ps aux | grep $1 | grep -v grep | awk '{print $2}' | xargs kill -9 }
+alias ip="curl ifconfig.me"
+
+# Browser
+
+function dgg() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=$1"\ }
+function gh() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!github $1"\ }
+function rubygems() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!rubygems $1"\ }
+
+# NPM
+
+alias ni="npm install"
+alias ns="npm start"
+alias nt="npm test"
+alias nr="npm run"
+alias nrg="nr grunt"
