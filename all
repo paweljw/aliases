@@ -60,3 +60,8 @@ alias ns="npm start"
 alias nt="npm test"
 alias nr="npm run"
 alias nrg="nr grunt"
+
+# Cargo
+
+alias cr="cargo run"
+alias cn="cargo new --bin"
