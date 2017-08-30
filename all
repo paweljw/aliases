@@ -8,21 +8,28 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 # bundler
 alias be="bundle exec"
 alias bi="bundle install"
+alias bu="bundle update"
+alias beg="be guard"
+alias bec="be cap"
+alias ber='RAILS_ENV=test be rspec'
+alias bep='be pry'
 
 # Ruby
-alias ber='RAILS_ENV=test bundle exec rspec'
-alias bep='bundle exec pry'
 alias rb='ruby'
 
 # Rails
-alias rdm='rake db:migrate'
-alias rdr='rake db:rollback'
-alias rs='bundle exec rails server'
-alias rc='bundle exec rails console'
+alias rdm='be rake db:migrate'
+alias rdr='be rake db:rollback'
+alias rs='be rails server'
+alias rc='be rails console'
 alias rdf='rake db:drop db:create db:migrate'
 alias rdfd='rake db:drop db:create db:migrate:with_data'
 alias ra="bin/rake"
 alias rat="ra -T"
+
+# Get off my lawn
+alias cap="echo 'Use `bec` and get off my lawn'"
+alias pry="echo 'Use `bep` and get off my lawn'"
 
 # ripgrep, heh
 alias ag='/usr/local/bin/rg'
@@ -30,6 +37,7 @@ alias ag='/usr/local/bin/rg'
 # Docker compose
 alias dc='docker-compose'
 alias dup='dc up'
+
 # I mess this up way too much
 alias dcup='dup'
 alias dcd='dc down'
@@ -52,6 +60,7 @@ alias ip="curl ifconfig.me"
 function dgg() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=$1"\ }
 function gh() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!github $1"\ }
 function rubygems() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!rubygems $1"\ }
+function mdn() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!mdn $1"\ }
 
 # NPM
 
@@ -60,8 +69,16 @@ alias ns="npm start"
 alias nt="npm test"
 alias nr="npm run"
 alias nrg="nr grunt"
+alias nk="nr karma"
+
+# Oh, Vue
+alias nrd="nr dev"
 
 # Cargo
 
 alias cr="cargo run"
 alias cn="cargo new --bin"
+
+# Aliases
+
+alias are="source ~/.aliases/all"
