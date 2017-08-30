@@ -29,7 +29,6 @@ alias rat="ra -T"
 
 # Get off my lawn
 alias cap="echo 'Use `bec` and get off my lawn'"
-alias pry="echo 'Use `bep` and get off my lawn'"
 
 # ripgrep, heh
 alias ag='/usr/local/bin/rg'
