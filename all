@@ -81,7 +81,7 @@ alias cn="cargo new --bin"
 
 # Foreman
 
-alias fed="foreman -f Procfile.dev"
+alias fed="foreman start -f Procfile.dev"
 
 # Aliases
 
