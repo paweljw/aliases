@@ -87,3 +87,5 @@ alias fed="foreman -f Procfile.dev"
 
 alias are="source ~/.aliases/all"
 alias apu='export BACK=`pwd` && cd ~/.aliases && git add . && git commit -m "Added aliases @ `date`" && git push origin master && cd $BACK'
+alias aed='subl ~/.aliases/all'
+alias au='export BACK=`pwd` && cd ~/.aliases && git pull && cd $BACK'
