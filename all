@@ -44,6 +44,7 @@ alias dcd='dc down'
 # Git aliases
 alias gcmp='git diff --stat --color --graph'
 alias gdrop='git reset --hard'
+alias nju='gco -b'
 
 # Miscellanea
 alias tf='tail -f'
@@ -78,6 +79,11 @@ alias nrd="nr dev"
 alias cr="cargo run"
 alias cn="cargo new --bin"
 
+# Foreman
+
+alias fed="foreman -f Procfile.dev"
+
 # Aliases
 
 alias are="source ~/.aliases/all"
+alias apu='BACK=`pwd` cd ~/.aliases && git add . && git commit -m "Added aliases @ `date`" && git push origin master && cd $BACK'
