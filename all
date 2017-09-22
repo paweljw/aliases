@@ -90,4 +90,15 @@ alias apu='export BACK=`pwd` && cd ~/.aliases && git add . && git commit -m "Add
 alias aed='subl ~/.aliases/all'
 alias au='export BACK=`pwd` && cd ~/.aliases && git pull && cd $BACK'
 
+# Spotify
+
+alias sp="spotify"
+alias spp="sp pause"
+alias spg="sp play"
+alias spn="sp next"
+alias sps="sp toggle shuffle"
+alias spr="sp toggle repeat"
+alias sptfu="sp vol 0"
+alias spsh="sp share url"
+
 source ~/.aliases/non_public
