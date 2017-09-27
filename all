@@ -13,6 +13,7 @@ alias beg="be guard"
 alias bec="be cap"
 alias ber='RAILS_ENV=test be rspec'
 alias bep='be pry'
+alias bera='be rackup'
 
 # Ruby
 alias rb='ruby'
