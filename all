@@ -18,6 +18,7 @@ alias bepu='be puma'
 
 # Ruby
 alias rb='ruby'
+alias brb='bundle exec ruby'
 
 # Rails
 alias rdm='be rake db:migrate'
@@ -61,6 +62,7 @@ alias ip="curl ifconfig.me"
 
 function dgg() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=$1"\ }
 function gh() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!github $1"\ }
+function gh.() { pwd | xargs basename | xargs -I{} open /Applications/Opera.app/ "https://duckduckgo.com/?q=!github {} "\ }
 function rubygems() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!rubygems $1"\ }
 function mdn() { open /Applications/Opera.app/ "https://duckduckgo.com/?q=!mdn $1"\ }
 
@@ -102,5 +104,14 @@ alias sps="sp toggle shuffle"
 alias spr="sp toggle repeat"
 alias sptfu="sp vol 0"
 alias spsh="sp share url"
+
+# Sublime
+
+alias stu="subl ."
+
+# Directories
+
+alias piw="cd ~/piwnica"
+alias cod="cd ~/codest"
 
 source ~/.aliases/non_public
