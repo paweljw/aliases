@@ -21,13 +21,13 @@ alias rb='ruby'
 alias brb='bundle exec ruby'
 
 # Rails
-alias rdm='be rake db:migrate'
-alias rdr='be rake db:rollback'
 alias rs='be rails server'
 alias rc='be rails console'
-alias rdf='rake db:drop db:create db:migrate'
-alias rdfd='rake db:drop db:create db:migrate:with_data'
-alias ra='bin/rake'
+alias ra='bundle exec rake'
+alias rdf='ra db:drop db:create db:migrate'
+alias rdfd='ra db:drop db:create db:migrate:with_data'
+alias rdm='ra db:migrate'
+alias rdr='ra db:rollback'
 alias rat='ra -T'
 alias rgm='be rails g migration'
 
