@@ -96,9 +96,9 @@ alias fed="foreman start -f Procfile.dev"
 # Aliases
 
 alias are="source ~/.aliases/all"
-alias apu='export BACK=`pwd` && cd ~/.aliases && git add . && git commit -m "Added aliases @ `date`" && git push origin master && cd $BACK'
+alias apu='cd ~/.aliases && git add . && git commit -m "Added aliases @ `date`" && git push origin master && cd -'
 alias aed='subl ~/.aliases/all'
-alias au='export BACK=`pwd` && cd ~/.aliases && git pull && cd $BACK'
+alias au='cd ~/.aliases && git pull && cd -'
 
 # Spotify
 
