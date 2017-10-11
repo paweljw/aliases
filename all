@@ -120,4 +120,8 @@ alias stu="subl ."
 alias piw="cd ~/piwnica"
 alias cod="cd ~/codest"
 
+# Elixir
+
+alias er='elixir'
+
 source ~/.aliases/non_public
