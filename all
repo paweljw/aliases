@@ -35,7 +35,7 @@ alias rds='ra db:seed'
 alias rdfs='ra db:drop db:create db:migrate db:seed'
 
 # Get off my lawn
-alias cap="echo 'Use `bec` and get off my lawn'"
+alias cap="echo 'Use bec and get off my lawn'; #"
 
 # ripgrep, heh
 alias ag='/usr/local/bin/rg'
