@@ -17,5 +17,6 @@ source ~/.aliases/spotify.zsh
 source ~/.aliases/elixir.zsh
 source ~/.aliases/harvest.zsh
 source ~/.aliases/misc.zsh
+source ~/.aliases/sublime.zsh
 
 source ~/.aliases/non_public.zsh
