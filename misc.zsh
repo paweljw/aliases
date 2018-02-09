@@ -10,3 +10,5 @@ alias fu="fuck"
 
 # ripgrep, heh
 alias ag='/usr/local/bin/rg'
+
+alias arrrgh='ssh-add ~/.ssh/id_rsa'
