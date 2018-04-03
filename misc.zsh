@@ -7,6 +7,8 @@ alias ups='ps aux | grep'
 łups!() { ps aux | grep $1 | grep -v grep | awk '{print $2}' | xargs kill -9 }
 alias ip="curl ifconfig.me"
 alias fu="fuck"
+alias ideas="subl ~/ideas.md"
+alias plan="subl ~/plan.md"
 
 # ripgrep, heh
 alias ag='/usr/local/bin/rg'
