@@ -20,5 +20,6 @@ source ~/.aliases/misc.zsh
 source ~/.aliases/sublime.zsh
 source ~/.aliases/yarn.zsh
 source ~/.aliases/brew.zsh
+source ~/.aliases/nvim.zsh
 
 source ~/.aliases/non_public.zsh
