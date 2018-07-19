@@ -15,3 +15,4 @@ alias eplan="subl ~/plan.md"
 alias ag='/usr/local/bin/rg'
 
 alias arrrgh='ssh-add ~/.ssh/id_rsa'
+alias todo='ag "TODO:"'
