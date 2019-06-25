@@ -16,3 +16,5 @@ alias ag='/usr/local/bin/rg'
 
 alias arrrgh='ssh-add ~/.ssh/id_rsa'
 alias todo='ag "TODO:"'
+alias brr='git switchbranch'
+alias gcn='git commit --no-verify -m'
