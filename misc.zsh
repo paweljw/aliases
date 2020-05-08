@@ -6,15 +6,14 @@ alias ups='ps aux | grep'
 łups() { ps aux | grep $1 | grep -v grep | awk '{print $2}' | xargs kill }
 łups!() { ps aux | grep $1 | grep -v grep | awk '{print $2}' | xargs kill -9 }
 alias ip="curl ifconfig.me"
-alias fu="fuck"
-alias ideas="subl ~/ideas.md"
-alias plan="cat ~/plan.md"
-alias eplan="subl ~/plan.md"
 
 # ripgrep, heh
-alias ag='/usr/local/bin/rg'
+alias ag='/usr/bin/rg'
 
-alias arrrgh='ssh-add ~/.ssh/id_rsa'
 alias todo='ag "TODO:"'
 alias brr='git switchbranch'
 alias gcn='git commit --no-verify -m'
+
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
